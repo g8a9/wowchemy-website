@@ -1,39 +1,41 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Giuseppe Attanasio
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: Politecnico di Torino
+  url: https://www.polito.it/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I’m a third-year Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin.
+Presently, I work on the understanding and regularizion of large Language Models in the context of bias and fairness application.
+In the past, I worked on modeling and forecasting financial time series.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Neural Language Models
+- Explainable AI
+- ML-enabled Quantitative Trading
 
 # Education to show in About widget
 education:
   courses:
   - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+    institution: Stanford University  
+    year: (estimated) 2021
+  - course: MEng in Computer Engineering
+    institution: Politecnico di Torino
+    year: 2018
+  - course: BSc in Computer Engineering
+    institution: Politecnico di Torino
+    year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -64,7 +66,7 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "giuseppe.attanasio@polito.it"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
