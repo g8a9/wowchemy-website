@@ -25,8 +25,8 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University  
+  - course: PhD
+    institution: Politecnico di Torino  
     year: (estimated) 2021
   - course: MEng in Computer Engineering
     institution: Politecnico di Torino
