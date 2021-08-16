@@ -45,7 +45,7 @@ social:
   link: 'mailto:giuseppe.attanasio@polito.it'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/peppeatta
 - icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: ai
   link: https://scholar.google.it/citations?user=IuhnRJQAAAAJ&hl=en
@@ -72,4 +72,5 @@ highlight_name: true
 
 I’m a third-year Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin. Presently, I work on the understanding and regularizion of large Language Models in the context of bias and fairness application. In the past, I worked on modeling and forecasting financial time series.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+<!-- 
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
