@@ -49,7 +49,7 @@ tags:
 - '"smart platform"'
 - '"university level courses"'
 categories: []
-date: '2020-07-01'
+date: '2020-02-01'
 lastmod: 2021-08-16T15:44:19+02:00
 featured: false
 draft: false
@@ -87,5 +87,6 @@ abstract: During the last years an increasing number of university-level and pos
   1st-year M.Sc. course, which has involved around 160 students.
 publication: '*2020 IEEE 44th Annual Computers, Software, and Applications Conference
   (COMPSAC)*'
+url_pdf: https://iris.polito.it/retrieve/handle/11583/2839605/388318/DSL_IEEECompsac2020_accepted_version.pdf
 doi: 10.1109/COMPSAC48688.2020.00026
 ---

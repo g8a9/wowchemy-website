@@ -53,6 +53,6 @@ abstract: Machine learning techniques have found application in the study and de
   returns compared to baseline strategies exclusively based on Bitcoin trading.
 publication: '*Proceedings of the 5th Workshop on Data Science for Macro-modeling
   with Financial and Economic Datasets*'
-url_pdf: https://doi.org/10.1145/3336499.3338003
+url_pdf: https://dl.acm.org/doi/pdf/10.1145/3336499.3338003?casa_token=2P_kqk6juoQAAAAA:cH_CuopkwT-7WXik6qlBm4yFQJr-H623Va2zwfP9pSqi8F8fQodrLlDSaTBvJkJKp9d7RonWkWvv
 doi: 10.1145/3336499.3338003
 ---

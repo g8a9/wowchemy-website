@@ -42,6 +42,6 @@ abstract: We present a multi-agent classiﬁcation solution for identifying miso
   embeddings.
 publication: '*EVALITA Evaluation of NLP and Speech Tools for Italian - December 17th,
   2020*'
-url_pdf: http://books.openedition.org/aaccademia/6807
+url_pdf: http://ceur-ws.org/Vol-2765/paper142.pdf
 doi: 10.4000/books.aaccademia.6807
 ---

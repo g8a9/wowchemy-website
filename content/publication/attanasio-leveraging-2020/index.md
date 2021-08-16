@@ -15,7 +15,7 @@ tags:
 - '"explainable AI"'
 - '"stock price forecasting"'
 categories: []
-date: '2020-06-01'
+date: '2020-03-01'
 lastmod: 2021-08-16T15:44:19+02:00
 featured: true
 draft: false
@@ -53,6 +53,6 @@ abstract: Forecasting the stock market is particularly challenging due to the pr
   in terms of equity appreciation and robustness of the trading system to market drawdowns.
 publication: '*Proceedings of the Sixth International Workshop on Data Science for
   Macro-Modeling*'
-url_pdf: https://doi.org/10.1145/3401832.3402679
+url_pdf: https://iris.polito.it/retrieve/handle/11583/2845459/394377/DSMM20_openaccess.pdf
 doi: 10.1145/3401832.3402679
 ---

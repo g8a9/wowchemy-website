@@ -88,5 +88,6 @@ abstract: The use of machine learning techniques to predict the next-day stock d
   tested combinations. Hence, news information is worth considering by trend reversal
   strategies.
 publication: '*2019 International Conference on Data Mining Workshops (ICDMW)*'
+url_pdf: https://iris.polito.it/retrieve/handle/11583/2753472/308627/cameraready_SENTIREWORKSHOP_ICDM2019.pdf
 doi: 10.1109/ICDMW.2019.00079
 ---
