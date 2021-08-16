@@ -59,9 +59,9 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-- icon: cv
-  icon_pack: ai
-  link: uploads/cv.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: uploads/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "giuseppe.attanasio@polito.it"
@@ -71,6 +71,10 @@ highlight_name: true
 ---
 
 I’m a third-year Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin. Presently, I work on the understanding and regularizion of large Language Models in the context of bias and fairness application. In the past, I worked on modeling and forecasting financial time series.
+
+
+I currently live in Turin. I love reading (Sci-Fi, please) and playing basketball, while circumstances led me to discover that I’m not so bad at cooking. I also like DIY and automating boring stuff.
+Besides that, I am a passionate learner. I spend countless hours on lectures and tutorials about languages, frameworks, and technologies which I deem interesting.
 
 <!-- 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
