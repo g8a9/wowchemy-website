@@ -55,6 +55,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/giuseppe-attanasio/
+- icon: music
+  icon_pack: fas
+  link: https://open.spotify.com/track/66tkDkPsznE5zIHNt4QkXB?si=aad147ee54044638
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
