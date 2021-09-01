@@ -14,7 +14,7 @@ organizations:
   url: https://www.polito.it/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I’m a third-year Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin. Presently, I work on the understanding and regularizion of large Language Models in the context of bias and fairness application. In the past, I worked on modeling and forecasting financial time series.
+bio: I’m a third-year Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin under the supervision of [Elena Baralis](https://dbdmg.polito.it/wordpress/people/elena-baralis/). Presently, I work on understanding and regularizing large Language Models in the context of bias and fairness applications. I have also worked on modeling and forecasting financial time series.
 
 # Interests to show in About widget
 interests:
