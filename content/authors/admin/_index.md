@@ -73,7 +73,7 @@ email: "giuseppe.attanasio@polito.it"
 highlight_name: true
 ---
 
-I’m a third-year Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin. Presently, I work on the understanding and regularizion of large Language Models in the context of bias and fairness application. In the past, I worked on modeling and forecasting financial time series.
+I’m a third-year Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin under the supervision of [Elena Baralis](https://dbdmg.polito.it/wordpress/people/elena-baralis/). Presently, I work on understanding and regularizing large Language Models in the context of bias and fairness applications. I have also worked on modeling and forecasting financial time series.
 
 
 I currently live in Turin. I love reading (Sci-Fi, please) and playing basketball, while circumstances led me to discover that I’m not so bad at cooking. I also like DIY and automating boring stuff.
