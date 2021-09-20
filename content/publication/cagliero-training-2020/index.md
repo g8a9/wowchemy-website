@@ -53,6 +53,6 @@ abstract: Forecasting the stock markets is among the most popular research chall
   than models trained on a mix of different features. An ensemble of the faceted recommendations
   makes the generated trading signals more profitable yet robust to draw-down periods.
 publication: '*Computing*'
-url_pdf: https://iris.polito.it/retrieve/handle/11583/2782915/308150/Computing_PostPrint.pdf
+url_pdf: https://iris.polito.it/retrieve/handle/11583/2782915/516991/postprint_noneditorial_version.pdf
 doi: 10.1007/s00607-019-00776-7
 ---
