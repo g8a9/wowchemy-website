@@ -43,12 +43,14 @@ A non-solved (with exercises) and a solved version [are available](https://githu
 
 # Master Thesis Supervisor
 
-I co-supervised the activities of several Master Degree students at Politecnico di Torino (sorry to those I forgot to include):
+I co-supervised the activities of several Master Degree students at Politecnico di Torino:
 
-- Francesca Petrocchi
-- Vincenzo Savarese
-- Federico Careglio
-- Giuseppe D'Agostino
-- Gian Pietro Enzo Bellocca
+- Vittorio Pipoli
+- Christian Traina
 - Lorenzo Vaiani
 - Giulio Bagnoli
+- Gian Pietro Enzo Bellocca
+- Giuseppe D'Agostino
+- Federico Careglio
+- Vincenzo Savarese
+- Francesca Petrocchi
