@@ -6,15 +6,15 @@ title: Giuseppe Attanasio
 superuser: true
 
 # Role/position/tagline
-role: PhD student
+role: Research Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Politecnico di Torino
-  url: https://www.polito.it/
+- name: Bocconi University
+  url: https://www.unibocconi.eu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I’m a third-year Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin under the supervision of [Elena Baralis](https://dbdmg.polito.it/wordpress/people/elena-baralis/). Presently, I work on understanding and regularizing large Language Models in the context of bias and fairness applications. I have also worked on modeling and forecasting financial time series.
+bio:
 
 # Interests to show in About widget
 interests:
@@ -27,7 +27,7 @@ education:
   courses:
   - course: PhD
     institution: Politecnico di Torino  
-    year: (estimated) 2021
+    year: (estimated) 2022
   - course: MEng in Computer Engineering
     institution: Politecnico di Torino
     year: 2018
@@ -67,17 +67,20 @@ social:
 #   link: uploads/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "giuseppe.attanasio@polito.it"
+email: "giuseppeattanasio6@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I’m a third-year Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin under the supervision of [Elena Baralis](https://dbdmg.polito.it/wordpress/people/elena-baralis/). Presently, I work on understanding and regularizing large Language Models in the context of bias and fairness applications. I have also worked on modeling and forecasting financial time series.
+I am a Research Fellow in the [MilaNLP](https://milanlproc.github.io/) group of the Data and Marketing Insights research unit, headed by scientific director [Dirk Hovy](https://dmi.unibocconi.eu/people/dirk-hovy). My research interests include neural language models, explainable AI, and multi-modal architectures.
 
+I work with [Debora Nozza](https://dnozza.github.io/) on [Project MONICA](https://milanlproc.github.io/project/monitoring_italian_measures_response_covid19/) to characterize how people reacted to measures of the Italian government in response to COVID-19. 
 
 I currently live in Turin. I love reading (Sci-Fi, please) and playing basketball, while circumstances led me to discover that I’m not so bad at cooking. I also like DIY and automating boring stuff.
 Besides that, I am a passionate learner. I spend countless hours on lectures and tutorials about languages, frameworks, and technologies which I deem interesting.
+
+<!-- I was a Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin under the supervision of [Elena Baralis](https://dbdmg.polito.it/wordpress/people/elena-baralis/).  -->
 
 <!-- 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
