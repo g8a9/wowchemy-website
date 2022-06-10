@@ -71,4 +71,4 @@ List of papers I presented at reading groups (latest first):
 - [Multitask Prompted Training Enables Zero-Shot Task Generalization](./reading_group_100622.pdf)
 - [How does the pre-training objective affect what large language models learn about linguistic properties](./reading_group_050522.pdf)
 - [Vision-and-Language or Vision-for-Language? On Cross-Modal Influence in Multimodal Transformers](./reading-VLBERT.pdf)
-- [FNet: Mixing Tokens with Fourier Transforms](./reading-VLBERT.pdf)
+- [FNet: Mixing Tokens with Fourier Transforms](./reading-FNet.pdf)
