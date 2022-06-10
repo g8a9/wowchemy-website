@@ -16,12 +16,12 @@ abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2022-02-25T18:38:31+01:00
-date_end: 2022-02-25T18:38:31+01:00
+date:
+#date_end: 2022-02-25T18:38:31+01:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2022-03-17T18:38:31+01:00
+publishDate: 
 
 authors: []
 tags: []
@@ -66,7 +66,9 @@ slides: ""
 projects: []
 ---
 
-List of papers I presented at reading groups in my research labs:
+List of papers I presented at reading groups (latest first):
 
-- [How does the pre-training objective affect what large language models learn about linguistic properties](./reading_group_050522.pdf)
 - [Multitask Prompted Training Enables Zero-Shot Task Generalization](./reading_group_100622.pdf)
+- [How does the pre-training objective affect what large language models learn about linguistic properties](./reading_group_050522.pdf)
+- [Vision-and-Language or Vision-for-Language? On Cross-Modal Influence in Multimodal Transformers](./reading-VLBERT.pdf)
+- [FNet: Mixing Tokens with Fourier Transforms](./reading-VLBERT.pdf)
