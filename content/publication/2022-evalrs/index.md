@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "EvalRS: a Rounded Evaluation of Recommender Systems"
-authors: ["Jacopo Tagliabue", "Federico Bianchi", "Tobias Schnabel", "Giuseppe Attanasio", "Ciro Greco", "Gabriel de Souza P Moreira, Patrick John Chia"]
+authors: ["Jacopo Tagliabue", "Federico Bianchi", "Tobias Schnabel", "Giuseppe Attanasio", "Ciro Greco", "Gabriel de Souza P Moreira", "Patrick John Chia"]
 date: 2022-07-12
 doi: "10.48550/arXiv.2207.05772"
 
