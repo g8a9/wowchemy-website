@@ -73,12 +73,12 @@ email: "giuseppeattanasio6@gmail.com"
 highlight_name: true
 ---
 
-I am a Research Fellow in the [MilaNLP](https://milanlproc.github.io/) group of the Data and Marketing Insights research unit, headed by scientific director [Dirk Hovy](https://dmi.unibocconi.eu/people/dirk-hovy). My research interests include neural language models, explainable AI, and multi-modal architectures.
+Hi! I am a Postdoctoral Researcher in the [MilaNLP](https://milanlproc.github.io/) group of the Data and Marketing Insights research unit, headed by scientific director [Dirk Hovy](https://dmi.unibocconi.eu/people/dirk-hovy). My research interests include neural language models, explainable AI, and multi-modal architectures.
 
 I work with [Debora Nozza](https://dnozza.github.io/) on [Project MONICA](https://milanlproc.github.io/project/monitoring_italian_measures_response_covid19/) to characterize how people reacted to measures of the Italian government in response to COVID-19. 
 
-I currently live in Turin. I love reading (Sci-Fi, please) and playing basketball, while circumstances led me to discover that I’m not so bad at cooking. I also like DIY and automating boring stuff.
-Besides that, I am a passionate learner. I spend countless hours on lectures and tutorials about languages, frameworks, and technologies which I deem interesting.
+I currently live in Turin. I love reading (Sci-Fi, please) and playing basketball, but circumstances led me to discover that I’m not so bad at cooking. I also like DIY and automating boring stuff.
+Besides that, I am a passionate learner. I spend countless hours on lectures and tutorials about languages, frameworks, and technologies that interest me.
 
 <!-- I was a Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin under the supervision of [Elena Baralis](https://dbdmg.polito.it/wordpress/people/elena-baralis/).  -->
 
