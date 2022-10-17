@@ -2,7 +2,14 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "EvalRS: a Rounded Evaluation of Recommender Systems"
-authors: ["Jacopo Tagliabue", "Federico Bianchi", "Tobias Schnabel", "Giuseppe Attanasio", "Ciro Greco", "Gabriel de Souza P Moreira", "Patrick John Chia"]
+authors: 
+  - "Jacopo Tagliabue"
+  - "Federico Bianchi"
+  - "Tobias Schnabel"
+  - "Giuseppe Attanasio"
+  - "Ciro Greco"
+  - "Gabriel de Souza P Moreira"
+  - "Patrick John Chia"
 date: 2022-07-12
 doi: "10.48550/arXiv.2207.05772"
 
@@ -19,7 +26,7 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: "Much of the complexity of Recommender Systems (RSs) comes from the fact that they are used as part of more complex applications and affect user experience through a varied range of user interfaces. However, research focused almost exclusively on the ability of RSs to produce accurate item rankings while giving little attention to the evaluation of RS behavior in real-world scenarios. Such narrow focus has limited the capacity of RSs to have a lasting impact in the real world and makes them vulnerable to undesired behavior, such as reinforcing data biases. We propose EvalRS as a new type of challenge, in order to foster this discussion among practitioners and build in the open new methodologies for testing RSs "in the wild"."
+abstract: "Much of the complexity of Recommender Systems (RSs) comes from the fact that they are used as part of more complex applications and affect user experience through a varied range of user interfaces. However, research focused almost exclusively on the ability of RSs to produce accurate item rankings while giving little attention to the evaluation of RS behavior in real-world scenarios. Such narrow focus has limited the capacity of RSs to have a lasting impact in the real world and makes them vulnerable to undesired behavior, such as reinforcing data biases. We propose EvalRS as a new type of challenge, in order to foster this discussion among practitioners and build in the open new methodologies for testing RSs 'in the wild'."
 # Summary. An optional shortened abstract.
 summary: ""
 

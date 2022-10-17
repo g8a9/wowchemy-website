@@ -16,8 +16,8 @@ publishDate: 2022-10-17T14:48:20+01:00
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-# publication: ""
-# publication_short: ""
+publication: ""
+publication_short: ""
 
 abstract: "Many interpretability tools allow practitioners and researchers to explain Natural Language Processing systems. However, each tool requires different configurations and provides explanations in different forms, hindering the possibility of assessing and comparing them. A principled, unified evaluation benchmark will guide the users through the central question: which explanation method is more reliable for my use case? We introduce ferret, an easy-to-use, extensible Python library to explain Transformer-based models integrated with the Hugging Face Hub. It offers a unified benchmarking suite to test and compare a wide range of state-of-the-art explainers on any text or interpretability corpora. In addition, ferret provides convenient programming abstractions to foster the introduction of new explanation methods, datasets, or evaluation metrics."
 # Summary. An optional shortened abstract.
