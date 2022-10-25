@@ -21,6 +21,7 @@ main:
     weight: 50
   - name: Quotes
     url: '/quotes'
+    weight: 60
   # - name: Posts
   #   url: '#posts'
   #   weight: 40
