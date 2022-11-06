@@ -66,3 +66,5 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+In the blooming age of language technologies, the impact of social biases encoded in our models has surged to unprecedented levels. In this half-talk, half-discussion, we go through fundamental definitions of social bias in computer systems, specifically language models and social harm. We then review advances in measuring bias in NLP systems and discuss the frequently overlooked relation between intrinsic and extrinsic bias. We close our discussion with the relationship between lexical overfitting and bias and why it matters.
