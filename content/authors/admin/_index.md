@@ -6,7 +6,7 @@ title: Giuseppe Attanasio
 superuser: true
 
 # Role/position/tagline
-role: Research Fellow
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -18,16 +18,17 @@ bio:
 
 # Interests to show in About widget
 interests:
-- Neural Language Models
-- Explainable AI
-- ML-enabled Quantitative Trading
+- Hate Speech Detection
+- Social Bias in LMs
+- Vision-Language Multimodality
+- Explainable NLP
 
 # Education to show in About widget
 education:
   courses:
   - course: PhD
-    institution: Politecnico di Torino  
-    year: (estimated) 2022
+    institution: Politecnico di Torino
+    year: 2022
   - course: MEng in Computer Engineering
     institution: Politecnico di Torino
     year: 2018
@@ -42,7 +43,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:giuseppe.attanasio@polito.it'
+  link: 'mailto:giuseppe.attanasio3@unibocconi.it'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/peppeatta
@@ -57,7 +58,8 @@ social:
   link: https://www.linkedin.com/in/giuseppe-attanasio/
 - icon: music
   icon_pack: fas
-  link: https://open.spotify.com/track/66tkDkPsznE5zIHNt4QkXB?si=aad147ee54044638
+  link: https://open.spotify.com/track/3ZE3wv8V3w2T2f7nOCjV0N?si=63b8c84e60f4438e
+#link: https://open.spotify.com/track/66tkDkPsznE5zIHNt4QkXB?si=aad147ee54044638
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -77,8 +79,8 @@ Hi! I am a Postdoctoral Researcher in the [MilaNLP](https://milanlproc.github.io
 
 I work with [Debora Nozza](https://dnozza.github.io/) on [Project MONICA](https://milanlproc.github.io/project/monitoring_italian_measures_response_covid19/) to characterize how people reacted to measures of the Italian government in response to COVID-19. 
 
-I currently live in Turin. I love reading (Sci-Fi, please) and playing basketball, but circumstances led me to discover that I’m not so bad at cooking. I also like DIY and automating boring stuff.
-Besides that, I am a passionate learner. I spend countless hours on lectures and tutorials about languages, frameworks, and technologies that interest me.
+<!-- I am based in Turin and commute to Milan. I love reading (Sci-Fi, please) and playing basketball, but circumstances led me to discover that I’m not so bad at cooking. I also like DIY and automating boring stuff.
+Besides that, I am a passionate learner. I spend countless hours on lectures and tutorials about languages, frameworks, and technologies that interest me. -->
 
 <!-- I was a Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin under the supervision of [Elena Baralis](https://dbdmg.polito.it/wordpress/people/elena-baralis/).  -->
 

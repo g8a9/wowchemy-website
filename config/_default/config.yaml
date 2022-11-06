@@ -5,7 +5,7 @@
 
 title: Giuseppe's Website # Website name
 baseurl: 'https://gattanasio.cc/' # Website URL
-copyright: '© {year} Me' # Footer text, e.g. '© {year} Me'
+copyright: '© {year} Giuseppe Attanasio' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
