@@ -68,6 +68,7 @@ projects: []
 
 List of papers I presented at reading groups (latest first):
 
+- [The Tail Wagging the Dog: Dataset Construction Biases of Social Bias Benchmarks](./milanlp_rg_171122.pdf)
 - [How Gender Debiasing Affects Internal Model Representations, and Why It Matters](./milanlp_rg_131022.pdf)
 - [Multitask Prompted Training Enables Zero-Shot Task Generalization](./reading_group_100622.pdf)
 - [How does the pre-training objective affect what large language models learn about linguistic properties](./reading_group_050522.pdf)
