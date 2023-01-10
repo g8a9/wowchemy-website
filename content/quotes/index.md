@@ -3,6 +3,7 @@ Random quotes from books, newspapers, or else.
 ### Books
 
 - *Te l'ho già detto che i figli cambiano, vero? Noi possiamo solo osservare, stare a guardare ma non abbiamo voce in capitolo. Spediamo le nostre lettere, le nostre cartoline nel mondo e possiamo solo augurarci che arrivino a destinazione sane e salve, che nessuno postino sbadato le perda, che il francobollo non si stacchi, che la carta non si laceri disperdendo quel contenuto così prezioso.* - **L'acrobata, Laura Forti**
+- *Il vento non si vedrebbe se non ci fosse niente a sventolare: le bandiere rendono visibile l'invisibile.* - **Senza mai arrivare in cima, Paolo Cognetti**
 
 ### TV
 
