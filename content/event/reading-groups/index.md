@@ -66,8 +66,10 @@ slides: ""
 projects: []
 ---
 
-List of papers I presented at reading groups (latest first):
+List of papers I presented at reading groups (latest first). \
+Slides are free to use upon attribution. Sharing and mixing under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
+- [Training language models to follow instructions with human feedback](./milanlp_rg_260123.pdf)
 - [The Tail Wagging the Dog: Dataset Construction Biases of Social Bias Benchmarks](./milanlp_rg_171122.pdf)
 - [How Gender Debiasing Affects Internal Model Representations, and Why It Matters](./milanlp_rg_131022.pdf)
 - [Multitask Prompted Training Enables Zero-Shot Task Generalization](./reading_group_100622.pdf)
