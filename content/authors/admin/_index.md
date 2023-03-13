@@ -26,7 +26,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: PhD
+  - course: Doctor of Philosophy (Ph.D.)
     institution: Politecnico di Torino
     year: 2022
   - course: MEng in Computer Engineering
