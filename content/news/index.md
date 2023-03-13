@@ -1,0 +1,12 @@
+A list of news, if you missed the last episodes, and to convince myself I haven't been twiddling my thumbs.
+
+- Feb 23, our [study](https://iris.polito.it/handle/11583/2976783) on systematic subgroup divergence of SLU models got accepted at **ICASSP 2022**. Joint effort with Amazon Alexa AI and Politecnico di Torino;
+- Dec 22, [Moreno](https://www.mlaquatra.me/) and I founded [Risorse per la Lingua Italiana](https://github.com/RiTA-nlp) (RiTA), an online community to gather Italian NLP researchers and build resources (models, datasets, educational contents) in Italian;
+- Oct 22, I successfully defended my Ph.D. at Politecnico di Torino (!) 🎉;
+- Sep 22, I wrote and tutored the NLP tutorials at the [Mediterranean Machine Learning School](https://www.m2lschool.org/past-editions/m2l-2022) (M2L);
+- Jul 22, we released [ferret](https://github.com/g8a9/ferret) an interpretability library that got covered by online tutorials and accepted at **EACL 2023 (System Demonstration)**;
+- May 22, [EAR](https://aclanthology.org/2022.findings-acl.88/) accepted at **ACL 2022 (Findings)**. With it, one can mitigate lexical overfitting in LLMs;
+- Feb 22, I started working as a research associate in the [MilaNLP group](https://milanlproc.github.io/) at Bocconi University, Milan, with Debora Nozza and Dirk Hovy;
+- Jan 22, our [study](https://ieeexplore.ieee.org/abstract/document/9671868) on Gender Inclusive Language in Italian got accepted at **IEEE Big Data 2022** and later featured at the **8e Congrès Mondial de Linguistique Française**. Joint effort with the University of Turin, Bologna, and Bergamo.
+
+
