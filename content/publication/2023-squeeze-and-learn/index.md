@@ -36,7 +36,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: ./squeeze_and_learn_icip23.pdf
+url_pdf:
 url_code: https://github.com/vittoriopipoli/FNetCompression
 url_dataset:
 url_poster:
