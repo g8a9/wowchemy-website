@@ -69,6 +69,7 @@ projects: []
 List of papers I presented at reading groups (latest first). \
 Slides are free to use upon attribution. Sharing and mixing under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
+- [Toolformer: Language Models Can Teach Themselves to Use Tools](./milanlp_rg_170323.pdf)
 - [Training language models to follow instructions with human feedback](./milanlp_rg_260123.pdf)
 - [The Tail Wagging the Dog: Dataset Construction Biases of Social Bias Benchmarks](./milanlp_rg_171122.pdf)
 - [How Gender Debiasing Affects Internal Model Representations, and Why It Matters](./milanlp_rg_131022.pdf)
