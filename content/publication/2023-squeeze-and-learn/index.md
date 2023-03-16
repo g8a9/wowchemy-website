@@ -4,10 +4,10 @@
 title: "Squeeze and Learn: Compressing Long Sequences with Fourier Transformers for Gene Expression Prediction"
 authors: ["Vittorio Pipoli", "Giuseppe Attanasio", "Marta Lovino", "Elisa Ficarra"]
 date: 2023-03-06
-doi: ""
+doi:
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 
+publishDate: 2023-03-16
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
