@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Exploring subgroup performance in End-to-End speech models"
+title: "Exploring Subgroup Performance in End-to-End Speech Models"
 authors: ["Alkis Koudounas", "Eliana Pastor", "Giuseppe Attanasio", "Vittorio Mazzia", "Manuel Giollo", "Thomas Gueudre", "Luca Cagliero", "Luca de Alfaro", "Elena Baralis", "Daniele Amberti"]
 date: 2023-03-01
 doi:
