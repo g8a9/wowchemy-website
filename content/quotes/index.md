@@ -1,4 +1,4 @@
-Random quotes from books, newspapers, or else.
+Random quotes from books, movies, tv shows, or else.
 
 ### Books
 
@@ -9,3 +9,7 @@ Random quotes from books, newspapers, or else.
 
 - *Computers are not the thing. They are the thing that gets us to the thing.* - **Halt And Catch Fire**
 - *Today, smoking is gonna save lives.* - **Dwight Schrute, The Office**
+
+### Movies
+
+- *Yeah, but your scientists were so preoccupied with whether they could, they didn’t stop to think if they should.* - **Mr. Malcom, Jurassic Park**
