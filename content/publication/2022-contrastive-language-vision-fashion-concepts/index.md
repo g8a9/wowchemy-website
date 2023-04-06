@@ -5,7 +5,7 @@ title: "Contrastive Language and Vision Learning of General Fashion Concepts"
 authors: ["Patrick John Chia", "Giuseppe Attanasio", "Federico Bianchi", "Silvia Terragni", "Ana Rita Magalhães", "Diogo Goncalves", "Ciro Greco", "Jacopo Tagliabue"]
 
 date: 2022-11-10
-doi: https://doi.org/10.1038/s41598-022-23052-9
+doi: 10.1038/s41598-022-23052-9
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-10-17T14:48:20+01:00
