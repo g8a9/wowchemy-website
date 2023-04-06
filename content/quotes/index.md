@@ -9,6 +9,8 @@ Random quotes from books, movies, tv shows, or else.
 
 - *Computers are not the thing. They are the thing that gets us to the thing.* - **Halt And Catch Fire**
 - *Today, smoking is gonna save lives.* - **Dwight Schrute, The Office**
+- *"Six.", "Six what?", "Six questions since you walked through that door. Soon you'll have to start being the man with the answers.", "Why?", "Seven."* - **Polly, John, Peaky Blinders**
+ 
 
 ### Movies
 
