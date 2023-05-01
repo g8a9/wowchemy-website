@@ -1,5 +1,6 @@
 A list of news, if you missed the last episodes, and to convince myself I haven't been twiddling my thumbs.
 
+- May 23, our two research proposals on gender bias of prompted LMs and multimodal humor detection were accepted for [Google Research credit](https://edu.google.com/programs/credits/research/?modal_active=none) funding;
 - Feb 23, our [study](https://iris.polito.it/handle/11583/2976783) on systematic subgroup divergence of SLU models got accepted at **ICASSP 2022**. Joint effort with Amazon Alexa AI and Politecnico di Torino;
 - Dec 22, [Moreno](https://www.mlaquatra.me/) and I founded [Risorse per la Lingua Italiana](https://github.com/RiTA-nlp) (RiTA), an online community to gather Italian NLP researchers and build resources (models, datasets, educational contents) in Italian;
 - Oct 22, I successfully defended my Ph.D. at Politecnico di Torino (!) 🎉;
