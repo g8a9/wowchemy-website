@@ -58,8 +58,9 @@ social:
   link: https://www.linkedin.com/in/giuseppe-attanasio/
 - icon: music
   icon_pack: fas
-  link: https://open.spotify.com/track/3ZE3wv8V3w2T2f7nOCjV0N?si=63b8c84e60f4438e
-#link: https://open.spotify.com/track/66tkDkPsznE5zIHNt4QkXB?si=aad147ee54044638
+  link: https://www.youtube.com/watch?v=nyuo9-OjNNg
+# link: https://open.spotify.com/track/3ZE3wv8V3w2T2f7nOCjV0N?si=63b8c84e60f4438e
+# link: https://open.spotify.com/track/66tkDkPsznE5zIHNt4QkXB?si=aad147ee54044638
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
