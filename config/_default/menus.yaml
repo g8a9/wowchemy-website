@@ -8,8 +8,9 @@ main:
     url: '#about'
     weight: 10
   - name: Publications
-    url: '/publication'
+    url: 'https://scholar.google.it/citations?hl=en&user=IuhnRJQAAAAJ&view_op=list_works&sortby=pubdate'
     weight: 20
+    # url: '/publication'
   - name: News
     url: '/news'
     weight: 21
