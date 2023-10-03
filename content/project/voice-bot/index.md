@@ -4,7 +4,7 @@
 title: "Voice Bot"
 summary: "A Telegram bot to transcribe any voice note with speech AI models."
 authors: ["Giuseppe Attanasio"]
-tags: []
+tags: ["software"]
 categories: []
 date: 2023-10-04T00:10:36+02:00
 
@@ -39,7 +39,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 
-draft: true
+draft: false
 ---
 
 We all receive hundreds of voice notes every year. However, listening to some of them, at particular moments and times, might violate good social norms and manners.
