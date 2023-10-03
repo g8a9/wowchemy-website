@@ -18,10 +18,9 @@ bio:
 
 # Interests to show in About widget
 interests:
-- Hate Speech Detection
-- Social Bias in LMs
-- Vision-Language Multimodality
-- Explainable NLP
+- Interpretability
+- Fairness
+- Safety
 
 # Education to show in About widget
 education:
