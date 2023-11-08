@@ -15,6 +15,8 @@ summary:
 abstract: "Interpretability, accountability, and control are among today's biggest challenges with modern large-scale models. Even though recent technological advances (e.g., scale, multiple training sources, generation via prompting, and in-context learning) counter transparency, a large body of research has explored how, what, and when it is possible to attribute specific (undesired) behaviors to models. 
 This talk explores recent breakthroughs in interpretability techniques designed to ensure fairness and safety in language models. We will discuss methods for identifying biases and vulnerabilities, enabling us to create more equitable and trustworthy AI systems. The presentation will also address challenges and trade-offs associated with interpretability, paving the way for safer and more inclusive models."
 
+draft: true
+
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: 2023-08-29
