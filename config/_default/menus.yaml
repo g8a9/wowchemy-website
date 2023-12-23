@@ -38,3 +38,6 @@ main:
   - name: CV
     url: uploads/cv.pdf
     weight: 70
+  - name: PhD Thesis
+    url: uploads/phd_thesis.pdf
+    weight: 80
