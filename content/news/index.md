@@ -1,6 +1,8 @@
 A list of news, if you missed the last episodes, and to convince myself I haven't been twiddling my thumbs.
 
-- Nov 23, I will co-organize the **Third Workshop on Safety for Conversational** AI at LREC/COLING 2024;
+- Jan 24, our [Safety-Tuned LLaMA](https://arxiv.org/abs/2309.07875) paper was accepted at **ICLR 2024**;
+- Jan 24, our [new approach](https://arxiv.org/abs/2309.07733) to interpreting speech classification models was accepted at **EACL 2024**; 
+- Nov 23, I will co-organize the [**Third Workshop on Safety for Conversational AI**](https://sites.google.com/view/safety-conv-ai-workshop/home) at **LREC/COLING 2024**;
 - Nov 23, our [study](https://arxiv.org/abs/2310.12127) on mitigating gender bias in MT using interpretability was accepted at **EMNLP 2023**;
 - May 23, our project ITALIC, the first large-scale Intent Classification dataset with Italian utterances, got accepted at **INTERSPEECH 2023**;
 - May 23, our two research proposals on gender bias of prompted LMs and multimodal humor detection were accepted for [Google Research credit](https://edu.google.com/programs/credits/research/?modal_active=none) funding;
