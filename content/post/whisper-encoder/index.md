@@ -1,5 +1,5 @@
 ---
-title: Making Sense of How Whisper Process Audio
+title: Making Sense of How Whisper Processes Audio
 subtitle:
 
 # Summary for listings and search engines
