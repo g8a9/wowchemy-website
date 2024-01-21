@@ -62,7 +62,12 @@ I.e., these [Pulse-code Modulation](https://en.wikipedia.org/wiki/Pulse-code_mod
 
 When prepared with HF’s AutoProcessor (which in turn uses the [WhisperFeatureExtractor](https://huggingface.co/docs/transformers/main/en/model_doc/whisper#transformers.WhisperFeatureExtractor) class), if we also return the attention mask (useful for, e.g., batched inference) 
 ```python
-inputs = processor(rows[0]["audio"]["array"], return_tensors="pt", return_attention_mask=True, sampling_rate=16000)
+inputs = processor(
+    rows[0]["audio"]["array"],
+    return_tensors="pt",
+    return_attention_mask=True,
+    sampling_rate=16000
+)
 ```
 We have 
 - `input_features` of shape [1, 128, 3000]
