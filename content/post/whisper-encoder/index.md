@@ -60,7 +60,8 @@ row = next(iter(dataset))
 
 I.e., these [Pulse-code Modulation](https://en.wikipedia.org/wiki/Pulse-code_modulation) (PCM) samples correspond to 129600 / 16000 = 8.1 seconds of recording.
 
-When prepared with HF’s AutoProcessor (which in turn uses the [WhisperFeatureExtractor](https://huggingface.co/docs/transformers/main/en/model_doc/whisper#transformers.WhisperFeatureExtractor) class), if we also return the attention mask (useful for, e.g., batched inference) 
+If we process the signal with HF’s AutoProcessor (which in turn uses the [WhisperFeatureExtractor](https://huggingface.co/docs/transformers/main/en/model_doc/whisper#transformers.WhisperFeatureExtractor) class) and ask it to return the attention mask (useful for, e.g., batched inference), i.e.,
+
 ```python
 inputs = processor(
     row["audio"]["array"],
@@ -69,9 +70,10 @@ inputs = processor(
     sampling_rate=16000
 )
 ```
-We have 
-- `input_features` of shape [1, 128, 3000]
-- `attention mask` of shape [1, 3000]  (0s for padding positions, 1s everywhere else)
+
+we end up with: 
+- `inputs[""input_features"]` of shape [1, 128, 3000]
+- `inputs["attention mask"]` of shape [1, 3000]  (0s for padding positions, 1s everywhere else)
 
 Let’s make some sense out of it. Coming from the NLP domain and working with LMs, the standard shape format is `(batch size, sequence length, hidden size),` where the last dimension is typically the model's hidden size to represent contextual embeddings internally. Here, the first and second dimensions are switched, i.e., we have 128 input features and 3000 input positions representing the audio context (i.e., the sequence length). The input features correspond to the log-magnitude [Mel spectrogram representation](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum) of the input. The number of Mel bins is a design choice – you can find it under the name “[num_mel_bins](https://huggingface.co/openai/whisper-large-v3/blob/main/config.json#L42)” in the config file. I believe the inverted position of features and sequence length is a design choice, too, mainly to align with where channel and sequence length dimensions are found in signal processing libraries – e.g., torch’s [Conv1d](https://pytorch.org/docs/stable/generated/torch.nn.Conv1d.html) module puts the channel in the second dimension.
 
