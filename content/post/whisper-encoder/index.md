@@ -35,6 +35,8 @@ tags:
 - Audio
 - Research
 
+url_code: "https://colab.research.google.com/drive/1-y3lGSbMGEnyAHjWYlAi3-ArCqCL-6hx?usp=sharing"
+
 ---
 
 I’ve been recently playing around with OpenAI’s Whisper, and I’ve also come to need to understand some of its internals. Specifically, I'm interested in how Whisper build contextual representations of audio signals. Coming from the NLP domain, where transformers process “tokens” as their basic unit, understanding some numbers in play was not straightforward. I’m hence putting down my thoughts and comments, hoping that they will be helpful to somebody else and won’t annoy the audio experts out there too much.
