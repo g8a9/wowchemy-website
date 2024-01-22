@@ -39,7 +39,7 @@ url_code: "https://colab.research.google.com/drive/1-y3lGSbMGEnyAHjWYlAi3-ArCqCL
 
 ---
 
-I’ve been recently playing around with OpenAI’s Whisper, and I’ve also come to need to understand some of its internals. Specifically, I'm interested in how Whisper build contextual representations of audio signals. Coming from the NLP domain, where transformers process “tokens” as their basic unit, understanding some numbers in play was not straightforward. I’m hence putting down my thoughts and comments, hoping that they will be helpful to somebody else and won’t annoy the audio experts out there too much.
+I’ve been recently playing around with OpenAI’s Whisper, and I’ve also come to need to understand some of its internals. Specifically, I'm interested in how Whisper builds contextual representations of audio signals. Coming from the NLP domain, where transformers process “tokens” as their basic unit, understanding some numbers in play was not straightforward. I’m hence putting down my thoughts and comments, hoping that they will be helpful to somebody else and won’t annoy the audio experts out there too much.
 
 Whisper is an encoder-decoder model where the encoder processes audio signals and produces a sequence of contextualized representations. The decoder processes text tokens, and while doing so, it cross-attends to the encoder-generated representations. 
 
@@ -79,9 +79,11 @@ we end up with:
 
 Let’s make some sense out of it. Coming from the NLP domain and working with LMs, the standard shape format is `(batch size, sequence length, hidden size),` where the last dimension is typically the model's hidden size to represent contextual embeddings internally. Here, the first and second dimensions are switched, i.e., we have 128 input features and 3000 input positions representing the audio context (i.e., the sequence length). The input features correspond to the log-magnitude [Mel spectrogram representation](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum) of the input. The number of Mel bins is a design choice – you can find it under the name “[num_mel_bins](https://huggingface.co/openai/whisper-large-v3/blob/main/config.json#L42)” in the config file. I believe the inverted position of features and sequence length is a design choice, too, mainly to align with where channel and sequence length dimensions are found in signal processing libraries – e.g., torch’s [Conv1d](https://pytorch.org/docs/stable/generated/torch.nn.Conv1d.html) module puts the channel in the second dimension.
 
-From the [preprocessor config file](https://huggingface.co/openai/whisper-large-v3/blob/main/preprocessor_config.json), we also know that the “chunk length” is 30 – the naming convention here is not ideal, but here we mean seconds, which is the chunk size Whisper was trained on (see Section 2.1 from the [paper](https://cdn.openai.com/papers/whisper.pdf)). This number means that each of the 3000 embeddings corresponds to 30 / 3000 = 0.01 seconds or ten milliseconds (for reference, [vowel-related phonemes in Italian](https://www.glossa-journal.org/article/id/5232/) range from 50 to 200 ms).
+From the [preprocessor config file](https://huggingface.co/openai/whisper-large-v3/blob/main/preprocessor_config.json), we also know that the “chunk length” is 30. The naming convention is not ideal, but, here, we mean seconds, which is the length of recordings Whisper was trained on (see Section 2.1 from the [paper](https://cdn.openai.com/papers/whisper.pdf)).
+Since we have 3000 embeddings (or positions) representing 30 seconds, we know we "created" an embedding every 30 / 3000 = 0.01 seconds or ten milliseconds. As per the authors' design, input embeddings are constructed with a sliding window of 25 milliseconds and 10 milliseconds of stride. In summary, each embedding encodes 25 ms of signal, and the first 15 are also used to build the trailing embedding (except for the first position).
+For reference, [vowel-related phonemes in Italian](https://www.glossa-journal.org/article/id/5232/) range from 50 to 200 ms. Moreover, note that, depending on the use case, a context (or chunk length) of 30 seconds might be needed or *extremely inefficient*, as many embeddings will represent padding (for reference, the mean duration in the Italian splits of [Mozilla Common Voice](https://huggingface.co/datasets/mozilla-foundation/common_voice_16_0), [FLEURS](https://huggingface.co/datasets/google/fleurs), and [VoxPopuli](https://huggingface.co/datasets/facebook/voxpopuli) is 6, 13, and 12 seconds, respectively).
 
-Back to our example. If we have 8.1s of audio, we will have 8.1 / 0.01 = 810 embeddings of actual context, and the rest is padding. You can verify that by running:
+Back to our example. If we have 8.1s of audio, we will have approximately 8.1 / 0.01 = 810 embeddings of actual context, and the rest is padding. You can verify that by running:
 
 ```python
 inputs["attention_mask"].sum().item() # the output is 810
@@ -91,7 +93,7 @@ Or by checking what `inputs["input_features"][0, :, 811]` or `inputs["input_feat
 
 Let’s now move to inference. We know that Whisper has a maximum context length of 1500, which we can see from the model’s [config file](https://huggingface.co/openai/whisper-large-v3/blob/main/config.json#L37). This setting means the output will contain a maximum sequence length of 1500, whatever we produce. When the input is 3000 frames, the output of the encoder will have 1500 embeddings.
 
-But how do we go from 3000 to 1500? This is due mainly to the first [1D convolutional filter](https://github.com/huggingface/transformers/blob/main/src/transformers/models/whisper/modeling_whisper.py#L1105) (whose weights can also be considered the equivalent of the [embedding matrix](https://github.com/huggingface/transformers/blob/main/src/transformers/models/whisper/modeling_whisper.py#L1105) in a language transformer). Roughly, the filter uses a kernel size=3 and stride=1, which turns a 3000-long sequence into a 1500-long one (see the detailed formula in torch’s docs). This transformation also means that each embedding represents 10*2 = 20 milliseconds in the audio domain.
+But how do we go from 3000 to 1500? This is due mainly to the second [1D convolutional filter](https://github.com/huggingface/transformers/blob/main/src/transformers/models/whisper/modeling_whisper.py#L1106). Roughly, the filter uses a kernel size=3 and stride=2, which turns a 3000-long sequence into a 1500-long one (see the detailed formula in torch’s docs). This transformation also means that each embedding represents 25*2 = 50 (overlapping) milliseconds in the audio domain.
 
 Let’s do the last step and run the actual inference.
 
@@ -112,4 +114,3 @@ Where 1500 is the sequence length we expected, and 1280 is the hidden size Whisp
 That result wraps it up! Whisper has become a one-stop solution for many speech-related applications. I hope the posts have cleared some doubts about interpreting the model’s output and internals and will stem exciting research ideas.
 
 Cheers
-
