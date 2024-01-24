@@ -73,15 +73,16 @@ inputs = processor(
 )
 ```
 
-we end up with: 
-- `inputs[""input_features"]` of shape [1, 128, 3000]
+we end up with the following: 
+- `inputs["input_features"]` of shape [1, 128, 3000]
 - `inputs["attention mask"]` of shape [1, 3000]  (0s for padding positions, 1s everywhere else)
 
 Let’s make some sense out of it. Coming from the NLP domain and working with LMs, the standard shape format is `(batch size, sequence length, hidden size),` where the last dimension is typically the model's hidden size to represent contextual embeddings internally. Here, the first and second dimensions are switched, i.e., we have 128 input features and 3000 input positions representing the audio context (i.e., the sequence length). The input features correspond to the log-magnitude [Mel spectrogram representation](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum) of the input. The number of Mel bins is a design choice – you can find it under the name “[num_mel_bins](https://huggingface.co/openai/whisper-large-v3/blob/main/config.json#L42)” in the config file. I believe the inverted position of features and sequence length is a design choice, too, mainly to align with where channel and sequence length dimensions are found in signal processing libraries – e.g., torch’s [Conv1d](https://pytorch.org/docs/stable/generated/torch.nn.Conv1d.html) module puts the channel in the second dimension.
 
 From the [preprocessor config file](https://huggingface.co/openai/whisper-large-v3/blob/main/preprocessor_config.json), we also know that the “chunk length” is 30. The naming convention is not ideal, but, here, we mean seconds, which is the length of recordings Whisper was trained on (see Section 2.1 from the [paper](https://cdn.openai.com/papers/whisper.pdf)).
 Since we have 3000 embeddings (or positions) representing 30 seconds, we know we "created" an embedding every 30 / 3000 = 0.01 seconds or ten milliseconds. As per the authors' design, input embeddings are constructed with a sliding window of 25 milliseconds and 10 milliseconds of stride. In summary, each embedding encodes 25 ms of signal, and the first 15 are also used to build the trailing embedding (except for the first position).
-For reference, [vowel-related phonemes in Italian](https://www.glossa-journal.org/article/id/5232/) range from 50 to 200 ms. Moreover, note that, depending on the use case, a context (or chunk length) of 30 seconds might be needed or *extremely inefficient*, as many embeddings will represent padding (for reference, the mean duration in the Italian splits of [Mozilla Common Voice](https://huggingface.co/datasets/mozilla-foundation/common_voice_16_0), [FLEURS](https://huggingface.co/datasets/google/fleurs), and [VoxPopuli](https://huggingface.co/datasets/facebook/voxpopuli) is 6, 13, and 12 seconds, respectively).
+For reference, [vowel-related phonemes in Italian](https://www.glossa-journal.org/article/id/5232/) range from 50 to 200 ms.
+Moreover, depending on the use case, a context (or chunk length) of 30 seconds requires some considerations. If the average input duration is significantly shorter, a 30s context is *inefficient*, as many embeddings will represent padding (for reference, the mean duration in the Italian splits of [Mozilla Common Voice](https://huggingface.co/datasets/mozilla-foundation/common_voice_16_0), [FLEURS](https://huggingface.co/datasets/google/fleurs), and [VoxPopuli](https://huggingface.co/datasets/facebook/voxpopuli) is 6, 13, and 12 seconds, respectively). If inputs are longer than 30s, you must trim or split them in different segments. 
 
 Back to our example. If we have 8.1s of audio, we will have approximately 8.1 / 0.01 = 810 embeddings of actual context, and the rest is padding. You can verify that by running:
 
@@ -114,3 +115,7 @@ Where 1500 is the sequence length we expected, and 1280 is the hidden size Whisp
 That result wraps it up! Whisper has become a one-stop solution for many speech-related applications. I hope the posts have cleared some doubts about interpreting the model’s output and internals and will stem exciting research ideas.
 
 Cheers
+
+**Acknowledgments**
+
+Thanks to Marco Gaido for the patient revision.
