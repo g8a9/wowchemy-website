@@ -118,4 +118,4 @@ Cheers
 
 **Acknowledgments**
 
-Thanks to Marco Gaido for the patient revision.
+Thanks to Marco Gaido for the thorough revision.
