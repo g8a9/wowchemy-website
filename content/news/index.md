@@ -1,5 +1,6 @@
 A list of news, if you missed the last episodes, and to convince myself I haven't been twiddling my thumbs.
 
+- Feb 24, life update! I moved to Lisbon and started working with André Martins and the SARDINE group;
 - Jan 24, our [Safety-Tuned LLaMA](https://arxiv.org/abs/2309.07875) paper was accepted at **ICLR 2024**;
 - Jan 24, our [new approach](https://arxiv.org/abs/2309.07733) to interpreting speech classification models was accepted at **EACL 2024**; 
 - Nov 23, I will co-organize the [**Third Workshop on Safety for Conversational AI**](https://sites.google.com/view/safety-conv-ai-workshop/home) at **LREC/COLING 2024**;

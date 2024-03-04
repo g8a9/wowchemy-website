@@ -75,7 +75,7 @@ email: "giuseppeattanasio6@gmail.com"
 highlight_name: true
 ---
 
-Hi! I am a Postdoctoral Researcher in the [SARDINE](https://sardine-lab.github.io/) group at [Instituto de Telecomunicações](https://www.it.pt/), Lisbon, headed by scientific director André Martins (https://andre-martins.github.io/). My research interests lay at the intersection of interpretability, fairness, and safety.
+Hi! I am a Postdoctoral Researcher in the [SARDINE](https://sardine-lab.github.io/) group at [Instituto de Telecomunicações](https://www.it.pt/), Lisbon, headed by scientific director [André Martins](https://andre-martins.github.io/). My research interests lay at the intersection of interpretability, fairness, and safety.
 I was previously a member of the [MilaNLP](https://milanlproc.github.io/) group.
 
 <!-- of the Department of Computing Sciences at Bocconi University, Milan, headed by scientific director [Dirk Hovy](https://dmi.unibocconi.eu/people/dirk-hovy).  -->
