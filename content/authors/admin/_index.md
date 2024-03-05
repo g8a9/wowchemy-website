@@ -10,8 +10,8 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: SARDINE, Instituto de Telecomunicações
-  url: https://sardine-lab.github.io/
+# - name: SARDINE, Instituto de Telecomunicações
+#   url: https://sardine-lab.github.io/
 
 # Short bio (displayed in user profile at end of posts)
 bio:
