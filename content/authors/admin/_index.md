@@ -10,8 +10,8 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Bocconi University
-  url: https://www.unibocconi.eu/
+- name: SARDINE, Instituto de Telecomunicações
+  url: https://sardine-lab.github.io/
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -42,7 +42,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:giuseppe.attanasio3@unibocconi.it'
+  link: 'mailto:giuseppeattanasio6@gmail.com'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/peppeatta
