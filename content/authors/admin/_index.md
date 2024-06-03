@@ -84,9 +84,9 @@ I previously joined the [MilaNLP](https://milanlproc.github.io/) group.
 
 I am keeping my latest updates in [News](./news).
 
-I care about the impact of social biases infused in AI technologies, about which I gave talks and published modest science.
-I believe education and associationism play important roles. I co-founded a [student team](https://gattanasio.cc/project/malto-student-team/) and an online [community](https://gattanasio.cc), both of which aim to connect passionate people.
-I also believe deep understanding is rooted in hands-on exercise, so I've co-written a [tutorial](https://g8a9.github.io/yet_another_jax_transformer/) on implementing a Transformer from scratch in JAX.    
+I care about the impact of social biases infused in AI technologies, about which I gave talks and [published](https://scholar.google.it/citations?hl=it&user=IuhnRJQAAAAJ&view_op=list_works&sortby=pubdate) modest science.
+I believe education and associationism play essential roles. I co-founded a [student team](https://gattanasio.cc/project/malto-student-team/) and an online [community](https://gattanasio.cc), both of which aim to connect passionate people.
+I also believe deep understanding is rooted in hands-on exercise: our [tutorial](https://g8a9.github.io/yet_another_jax_transformer/) on implementing a Transformer from scratch in JAX is an example.
 
 <!-- I am based in Turin and commute to Milan. I love reading (Sci-Fi, please) and playing basketball, but circumstances led me to discover that I’m not so bad at cooking. I also like DIY and automating boring stuff.
 Besides that, I am a passionate learner. I spend countless hours on lectures and tutorials about languages, frameworks, and technologies that interest me. -->
