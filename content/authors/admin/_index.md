@@ -75,7 +75,7 @@ email: "giuseppeattanasio6@gmail.com"
 highlight_name: true
 ---
 
-I am a Postdoctoral Researcher in the [SARDINE](https://sardine-lab.github.io/) group at [Instituto de Telecomunicações](https://www.it.pt/), Lisbon, headed by scientific director [André Martins](https://andre-martins.github.io/). My research interests lay at the intersection of interpretability, fairness, and safety.
+I am a Postdoctoral Researcher in the [SARDINE](https://sardine-lab.github.io/) group at [Instituto de Telecomunicações](https://www.it.pt/), Lisbon, headed by scientific director [André Martins](https://andre-martins.github.io/). My research interests lie at the intersection of interpretability, fairness, and safety.
 I previously joined the [MilaNLP](https://milanlproc.github.io/) group where I was working with [Debora Nozza](https://dnozza.github.io/) and [Dirk Hovy](https://dmi.unibocconi.eu/people/dirk-hovy).
 
 <!-- of the Department of Computing Sciences at Bocconi University, Milan, headed by scientific director [Dirk Hovy](https://dmi.unibocconi.eu/people/dirk-hovy).  -->
@@ -84,8 +84,8 @@ I previously joined the [MilaNLP](https://milanlproc.github.io/) group where I w
 
 I am keeping my latest updates in [News](./news).
 
-I care about the impact of social biases infused in AI technologies, about which I gave talks and [published](https://scholar.google.it/citations?hl=it&user=IuhnRJQAAAAJ&view_op=list_works&sortby=pubdate) modest science.
-I believe education and associationism play essential roles. I co-founded a [student team](https://gattanasio.cc/project/malto-student-team/) and an online [community](https://gattanasio.cc), both of which aim to connect passionate people.
+I care about the impact of societal biases infused in AI technologies, about which I gave talks and [published](https://scholar.google.it/citations?hl=it&user=IuhnRJQAAAAJ&view_op=list_works&sortby=pubdate) modest science.
+I believe education and associationism play essential roles. I co-founded a [student team](https://gattanasio.cc/project/malto-student-team/) and an online [community](https://gattanasio.cc) to connect passionate people.
 I also believe deep understanding is rooted in hands-on exercise: our [tutorial](https://g8a9.github.io/yet_another_jax_transformer/) on implementing a Transformer from scratch in JAX is an example.
 
 <!-- I am based in Turin and commute to Milan. I love reading (Sci-Fi, please) and playing basketball, but circumstances led me to discover that I’m not so bad at cooking. I also like DIY and automating boring stuff.
