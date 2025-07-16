@@ -1,7 +1,9 @@
-A list of news, if you missed the last episodes, and to convince myself I haven't been twiddling my thumbs.
+A list of news, mostly to convince myself I haven't been twiddling my thumbs.
 
 ### 2025
 
+- 💰 Our proposal to build efficient speech language models was granted funding from the Fundação para a Ciência e a Tecnologia! 
+- 💰 Our proposal to study the usability of speech translation systems was granted funding from the European Association for Machine Translation!
 - [Watching the Watchers](https://arxiv.org/abs/2410.10995), our study on gender bias on quality estimation metrics for machine translation, was accepted at **ACL 2025**. We also presented there [our study](https://arxiv.org/abs/2506.02172) on gender encoding in modern 🎤 speech translation models.  
 - [SHADES](https://aclanthology.org/2025.naacl-long.600/) a large collaborative project collecting and release a large multilingual multicultural benchmark on social steretypes, led by Margaret Mitchell (Hugging Face), was accepted at **NAACL 2025**.
 
