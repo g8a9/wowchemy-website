@@ -75,14 +75,11 @@ email: "giuseppeattanasio6@gmail.com"
 highlight_name: true
 ---
 
-I am a Postdoctoral Researcher in the [SARDINE](https://sardine-lab.github.io/) group at Instituto de Telecomunicações, Lisbon, headed by scientific director [André Martins](https://andre-martins.github.io/). My research interests lie at the intersection of interpretability, fairness, and safety. I previously joined the [MilaNLP](https://milanlproc.github.io/) group, working with [Debora Nozza](https://dnozza.github.io/) and [Dirk Hovy](http://dirkhovy.com/).
+I'm a postdoc in the [Sardine 🐟](https://sardine-lab.github.io/) group at Instituto de Telecomunicações, Lisbon, headed by scientific director [André Martins](https://andre-martins.github.io/). My research interests lie at the intersection of interpretability, fairness, and safety. Previously, I was a [MilaNLP](https://milanlproc.github.io/) member, working with [Debora Nozza](https://dnozza.github.io/) and [Dirk Hovy](http://dirkhovy.com/). 
 
-I care about the impact of societal biases infused in AI technologies, about which I gave talks and published modest science. I believe education and associationism play essential roles. I co-founded a student team and an online community to connect passionate people. I believe deep understanding is rooted in hands-on exercise: I like coding for my research projects, developing automation tools, and writing practical tutorials.
+I care about the impact of societal biases infused in AI technologies, about which I gave talks and published modest science. Some of the things I'm proud of my past are: co-founding a [student team](https://gattanasio.cc/project/malto-student-team/) and [RiTA](https://rita-nlp.org/), an online community to connect passionate people around Italian resources, and getting decently good at pizza-making. I believe deep understanding is rooted in hands-on exercise: I like coding for my research projects, developing automation tools, and writing practical tutorials.
 
 I am keeping my latest updates in [News](./news).
-
-<!-- I am based in Turin and commute to Milan. I love reading (Sci-Fi, please) and playing basketball, but circumstances led me to discover that I’m not so bad at cooking. I also like DIY and automating boring stuff.
-Besides that, I am a passionate learner. I spend countless hours on lectures and tutorials about languages, frameworks, and technologies that interest me. -->
 
 <!-- I was a Ph.D. student at the Department of Control and Computer Engineering of Polytechnic of Turin under the supervision of [Elena Baralis](https://dbdmg.polito.it/wordpress/people/elena-baralis/).  -->
 
