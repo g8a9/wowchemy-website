@@ -4,14 +4,14 @@ A list of news, mostly to convince myself I haven't been twiddling my thumbs.
 
 - 💰 Our proposal to build efficient speech language models was granted funding from the **Fundação para a Ciência e a Tecnologia**! 
 - 💰 Our proposal to study the usability of speech translation systems was granted funding from the **European Association for Machine Translation**!
-- [Watching the Watchers](https://arxiv.org/abs/2410.10995), our study on gender bias on quality estimation metrics for machine translation, was accepted at **ACL 2025**. We also presented there [our study](https://arxiv.org/abs/2506.02172) on gender encoding in modern 🎤 speech translation models.  
+- Two papers accepted at **ACL 2025**: [Watching the Watchers](https://arxiv.org/abs/2410.10995), our study on gender bias on quality estimation metrics for machine translation, and [our study](https://arxiv.org/abs/2506.02172) on gender encoding in modern 🎤 speech translation models.  
 - [SHADES](https://aclanthology.org/2025.naacl-long.600/) a large collaborative project collecting and release a large multilingual multicultural benchmark on social steretypes, led by Margaret Mitchell (Hugging Face), was accepted at **NAACL 2025**.
 
 ### 2024
 
-- [Twists, Humps, and Pebbles](https://aclanthology.org/2024.emnlp-main.1188/), our large study on gender bias of multilingual speech recognition was accepted at EMNLP 2024 and ther it won the 🏅 **Social Impact Paper Award**. We also presented there [Metrics for What, Metrics for Whom](https://aclanthology.org/2024.emnlp-main.1207/), our position paper on requirements and desiderata of *actionability* for bias metrics.    
+- Two papers accepted at **EMNLP 2024**: [Twists, Humps, and Pebbles](https://aclanthology.org/2024.emnlp-main.1188/), our large study on gender bias of multilingual speech recognition which won the 🏅 **Social Impact Paper Award**, and [Metrics for What, Metrics for Whom](https://aclanthology.org/2024.emnlp-main.1207/), our position paper on requirements and desiderata of *actionability* for bias metrics.    
 - 🎉 Life update! I moved to Lisbon and started working with André Martins and the Sardine 🐟 group;
-- [Classist Tools](https://aclanthology.org/2024.acl-long.682/), our study on the correlation between social class and performance in NLP was accepted at **ACL 2024**. [Building Bridges](https://aclanthology.org/2024.findings-acl.448/), a new resource to evaluate gender-fair machine translation to German, was accepted among **ACL 2024 (Findings)**.
+- Two papers accepted at **ACL 2024**: [Classist Tools](https://aclanthology.org/2024.acl-long.682/), our study on the correlation between social class and performance in NLP, and [Building Bridges](https://aclanthology.org/2024.findings-acl.448/), a new resource to evaluate gender-fair machine translation to German, which was accepted among Findings.
 - Our [Safety-Tuned LLaMA](https://arxiv.org/abs/2309.07875) paper was accepted at **ICLR 2024**;
 - Our [new approach](https://arxiv.org/abs/2309.07733) to interpreting speech classification models was accepted at **EACL 2024**; 
 
