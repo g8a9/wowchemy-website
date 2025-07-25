@@ -77,7 +77,7 @@ highlight_name: true
 
 I'm a postdoc in the [Sardine 🐟](https://sardine-lab.github.io/) group at Instituto de Telecomunicações, Lisbon, headed by scientific director [André Martins](https://andre-martins.github.io/). My research interests lie at the intersection of interpretability, fairness, and safety. Previously, I was a [MilaNLP](https://milanlproc.github.io/) member, working with [Debora Nozza](https://dnozza.github.io/) and [Dirk Hovy](http://dirkhovy.com/). 
 
-I care about the impact of societal biases infused in AI technologies, about which I gave talks and published modest science. Some of the things I'm proud of my past are: co-founding a [student team](https://gattanasio.cc/project/malto-student-team/) and [RiTA](https://rita-nlp.org/), an online community to connect passionate people around Italian resources, and getting decently good at pizza-making. I believe deep understanding is rooted in hands-on exercise: I like coding for my research projects, developing automation tools, and writing practical tutorials.
+I care about the impact of societal biases embedded in AI technologies, about which I have given talks and [published](https://scholar.google.com/citations?user=IuhnRJQAAAAJ&hl=it) modest science. Some of the things I’m proud of from my past are co-founding a student [team](https://gattanasio.cc/project/malto-student-team/) and [RiTA](https://rita-nlp.org/), an online community connecting passionate people around Italian resources, and getting decently good at pizza-making. I believe that deep understanding is rooted in hands-on exercises. I enjoy coding for my research projects, developing automation tools, and writing practical tutorials.
 
 I am keeping my latest updates in [News](./news).
 
