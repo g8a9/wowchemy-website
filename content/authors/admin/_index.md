@@ -43,9 +43,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:giuseppeattanasio6@gmail.com'
-- icon: twitter
+- icon: bluesky
   icon_pack: fab
-  link: https://twitter.com/peppeatta
+  link: https://bsky.app/profile/gattanasio.cc
+# - icon: twitter
+#   icon_pack: fab
+#   link: https://twitter.com/peppeatta
 - icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: ai
   link: https://scholar.google.it/citations?user=IuhnRJQAAAAJ&hl=en
