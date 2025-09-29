@@ -43,7 +43,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:giuseppeattanasio6@gmail.com'
-- icon: bluesky
+- icon: custom/bluesky
   icon_pack: fab
   link: https://bsky.app/profile/gattanasio.cc
 # - icon: twitter
