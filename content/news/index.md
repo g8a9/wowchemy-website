@@ -4,6 +4,7 @@ A list of news, mostly to convince myself I haven't been twiddling my thumbs.
 
 - 💰 ARISA, my proposal to use LLM-baked interpretability for monitoring and steering agentic AI was granted funding from the **Fundação para a Ciência e a Tecnologia** (I'll be hiring soon)!
 - Three papers accepted at EMNLP 2026: [Ouvia](https://aclanthology.org/2026.emnlp-main.2667/) where we study end-user satisfaction and perceived usability of speech translation, [Lusopol](https://aclanthology.org/2026.findings-emnlp.2074/), a new benchmark and preference dataset for politically-sensitive requests about Portugal's history and society, and [MF^2](https://aclanthology.org/2026.emnlp-main.1702/), a new benchmark for long-video understanding. 
+- I started co-supervising three PhD students ([Sonal Sannigrahi](https://sonalsannigrahi.github.io/), [Beatriz Canaverde](https://beatrizcanaverde.github.io/), and [Daniel Chechelnitsky](https://chechelnitskd.github.io/)), and one postdoc ([Lorena Calvo Bartolomé](https://www.linkedin.com/in/lorena-calvo-bartolom%C3%A9-20826b124/)). 
 - 🤖 We released [AMALIA](https://amaliallm.pt/), the first fully open, sovereign language model for European Portuguese ([paper](https://aclanthology.org/2026.propor-1.38/)).
 
 
@@ -19,7 +20,7 @@ A list of news, mostly to convince myself I haven't been twiddling my thumbs.
 ### 2024
 
 - Two papers accepted at **EMNLP 2024** (with awards 🏅): [Twists, Humps, and Pebbles](https://aclanthology.org/2024.emnlp-main.1188/), our large study on gender bias of multilingual speech recognition which won the **Social Impact Paper Award**, and [Metrics for What, Metrics for Whom](https://aclanthology.org/2024.emnlp-main.1207/), our position paper on requirements and desiderata of *actionability* for bias metrics.    
-- 🎉 Life update! I moved to Lisbon and started working with André Martins and the Sardine 🐟 group;
+- ↔️ Life update! I moved to Lisbon and started working with André Martins and the Sardine 🐟 group;
 - Two papers accepted at **ACL 2024**: [Classist Tools](https://aclanthology.org/2024.acl-long.682/), our study on the correlation between social class and performance in NLP, and [Building Bridges](https://aclanthology.org/2024.findings-acl.448/), a new resource to evaluate gender-fair machine translation to German, which was accepted among Findings.
 - Our [Safety-Tuned LLaMA](https://arxiv.org/abs/2309.07875) paper was accepted at **ICLR 2024**;
 - Our [new approach](https://arxiv.org/abs/2309.07733) to interpreting speech classification models was accepted at **EACL 2024**; 
@@ -40,5 +41,5 @@ A list of news, mostly to convince myself I haven't been twiddling my thumbs.
 - I wrote and tutored the NLP tutorials at the [Mediterranean Machine Learning School](https://www.m2lschool.org/past-editions/m2l-2022) (M2L).
 - We released [ferret](https://github.com/g8a9/ferret) an interpretability library that got covered by online tutorials and accepted at **EACL 2023 (System Demonstration)**.
 - [EAR](https://aclanthology.org/2022.findings-acl.88/) got accepted at **ACL 2022 (Findings)**. With it, one can mitigate lexical overfitting in LLMs/
-- 🎉 I started working as a research associate in the [MilaNLP group](https://milanlproc.github.io/) at Bocconi University, Milan, with Debora Nozza and Dirk Hovy;
+- ↔️ I started working as a research associate in the [MilaNLP group](https://milanlproc.github.io/) at Bocconi University, Milan, with Debora Nozza and Dirk Hovy;
 - Our [study](https://ieeexplore.ieee.org/abstract/document/9671868) on Gender Inclusive Language in Italian got accepted at **IEEE Big Data 2022** and later featured at the **8e Congrès Mondial de Linguistique Française**. Joint effort with the University of Turin, Bologna, and Bergamo.
