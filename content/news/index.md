@@ -1,8 +1,15 @@
 A list of news, mostly to convince myself I haven't been twiddling my thumbs.
 
+### 2026
+
+- 💰 ARISA, my proposal to use LLM-baked interpretability for monitoring and steering agentic AI was granted funding from the **Fundação para a Ciência e a Tecnologia** (I'll be hiring soon)!
+- Three papers accepted at EMNLP 2026: [Ouvia](https://aclanthology.org/2026.emnlp-main.2667/) where we study end-user satisfaction and perceived usability of speech translation, [Lusopol](https://aclanthology.org/2026.findings-emnlp.2074/), a new benchmark and preference dataset for politically-sensitive requests about Portugal's history and society, and [MF^2](https://aclanthology.org/2026.emnlp-main.1702/), a new benchmark for long-video understanding. 
+- 🤖 We released [AMALIA](https://amaliallm.pt/), the first fully open, sovereign language model for European Portuguese ([paper](https://aclanthology.org/2026.propor-1.38/)).
+
 
 ### 2025
 
+- One paper accepted at **NAACL 2025**: [SHADES](https://aclanthology.org/2025.naacl-long.600/), a multilingual parallel dataset to study culturally-specific stereotypes in LLMs.
 - Two papers accepted at **EMNLP 2025**: [mGeNTE](https://aclanthology.org/2025.emnlp-main.692/), a new benchmark and study on gender neutral translation evaluation, and [Glitter ✨](https://aclanthology.org/2025.findings-emnlp.1002/) (Findings) a multi-reference benchmark for gender fair german machine translation.
 - 💰 MELT, our proposal to build efficient speech language models was granted funding from the **Fundação para a Ciência e a Tecnologia**! 
 - 💰 Ouvia, our proposal to study the usability of speech translation systems was granted funding from the **European Association for Machine Translation**!
