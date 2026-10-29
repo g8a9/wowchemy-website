@@ -1,11 +1,12 @@
 A list of news, mostly to convince myself I haven't been twiddling my thumbs.
 
+
 ### 2025
 
-- Two papers accepted at **EMNLP 2025**: stay tuned! 👀
-- 💰 Our proposal to build efficient speech language models was granted funding from the **Fundação para a Ciência e a Tecnologia**! 
-- 💰 Our proposal to study the usability of speech translation systems was granted funding from the **European Association for Machine Translation**!
-- Two papers accepted at **ACL 2025**: [Watching the Watchers](https://arxiv.org/abs/2410.10995), our study on gender bias on quality estimation metrics for machine translation, and [our study](https://arxiv.org/abs/2506.02172) on gender encoding in modern 🎤 speech translation models.  
+- Two papers accepted at **EMNLP 2025**: [mGeNTE](https://aclanthology.org/2025.emnlp-main.692/), a new benchmark and study on gender neutral translation evaluation, and [Glitter ✨](https://aclanthology.org/2025.findings-emnlp.1002/) (Findings) a multi-reference benchmark for gender fair german machine translation.
+- 💰 MELT, our proposal to build efficient speech language models was granted funding from the **Fundação para a Ciência e a Tecnologia**! 
+- 💰 Ouvia, our proposal to study the usability of speech translation systems was granted funding from the **European Association for Machine Translation**!
+- Two papers accepted at **ACL 2025**: [Watching the Watchers](https://aclanthology.org/2025.acl-long.1228/), our study on gender bias on quality estimation metrics for machine translation, and [our study](https://aclanthology.org/2025.acl-short.78/) on gender encoding in modern 🎤 speech translation models (student paper from [Dennis Fucci](https://www.linkedin.com/in/dennis-fucci-854027121/)).
 - [SHADES](https://aclanthology.org/2025.naacl-long.600/) a large collaborative project collecting and release a large multilingual multicultural benchmark on social steretypes, led by Margaret Mitchell (Hugging Face), was accepted at **NAACL 2025**.
 
 ### 2024
