@@ -23,13 +23,13 @@ A list of news, mostly to convince myself I haven't been twiddling my thumbs.
 - ↔️ Life update! I moved to Lisbon and started working with André Martins and the Sardine 🐟 group;
 - Two papers accepted at **ACL 2024**: [Classist Tools](https://aclanthology.org/2024.acl-long.682/), our study on the correlation between social class and performance in NLP, and [Building Bridges](https://aclanthology.org/2024.findings-acl.448/), a new resource to evaluate gender-fair machine translation to German, which was accepted among Findings.
 - Our [Safety-Tuned LLaMA](https://arxiv.org/abs/2309.07875) paper was accepted at **ICLR 2024**;
-- Our [new approach](https://arxiv.org/abs/2309.07733) to interpreting speech classification models was accepted at **EACL 2024**; 
+- Our [new approach](https://aclanthology.org/2024.eacl-long.136/) to interpreting speech classification models was accepted at **EACL 2024**; 
 
 ### 2023
 
 - We co-organized the [**Third Workshop on Safety for Conversational AI**](https://sites.google.com/view/safety-conv-ai-workshop/home) at **LREC/COLING 2024**.
-- [A Tale of Pronouns](https://arxiv.org/abs/2310.12127), our study on mitigating gender bias in MT using interpretability was accepted at **EMNLP 2023**.
-- Our project ITALIC, the first large-scale Intent Classification dataset with Italian utterances, got accepted at **INTERSPEECH 2023**.
+- [A Tale of Pronouns](https://aclanthology.org/2023.emnlp-main.243/), our study on mitigating gender bias in MT using interpretability was accepted at **EMNLP 2023**.
+- Our project [ITALIC](https://www.isca-archive.org/interspeech_2023/koudounas23_interspeech.html), born within [RiTA](https://rita-nlp.org/), the first large-scale Intent Classification dataset with Italian utterances, got accepted at **INTERSPEECH 2023**.
 - Our two research proposals on gender bias of prompted LMs and multimodal humor detection were accepted for [Google Research credit](https://edu.google.com/programs/credits/research/?modal_active=none) funding.
 - Our [study](https://iris.polito.it/handle/11583/2976783) on systematic subgroup divergence of SLU models got accepted at **ICASSP 2023**. Joint effort with Amazon Alexa AI and Politecnico di Torino.
 
